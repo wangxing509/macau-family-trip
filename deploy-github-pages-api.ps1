@@ -88,6 +88,15 @@ foreach ($File in $Files) {
     branch = "main"
   }
   $encodedPath = [System.Uri]::EscapeDataString($relative).Replace("%2F", "/")
+  try {
+    $existing = Invoke-GitHubJson -Method Get -Uri "$Api/repos/$Owner/$RepoName/contents/$encodedPath"
+    if ($existing -and $existing.sha) {
+      $payload.sha = $existing.sha
+    }
+  }
+  catch {
+    # File does not exist yet; creating a new file is fine without sha.
+  }
   Invoke-GitHubJson -Method Put -Uri "$Api/repos/$Owner/$RepoName/contents/$encodedPath" -Body $payload | Out-Null
   Write-Host "Uploaded: $relative"
 }
