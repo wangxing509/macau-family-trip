@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="兔妈">
+  <defs>
+    <linearGradient id="mamaBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3ccd7"/>
+      <stop offset="1" stop-color="#d98b9f"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="56" fill="url(#mamaBg)"/>
+  <path d="M92 86c0-37 9-49 28-49s28 12 28 49c-9 9-18 12-28 12s-19-3-28-12z" fill="#fff3ec"/>
+  <path d="M91 79c-3-34 9-47 29-47s32 13 29 47c-9 9-19 13-29 13s-20-4-29-13z" fill="#f4c2b4"/>
+  <path d="M89 77c-8-25 2-37 31-37s39 12 31 37c-9 9-19 12-31 12s-22-3-31-12z" fill="#fff1ea"/>
+  <path d="M79 47c10-16 25-18 34-6 5 7 3 17-1 24-11 6-23 4-33-18z" fill="#f4c2b4"/>
+  <path d="M161 47c-10-16-25-18-34-6-5 7-3 17 1 24 11 6 23 4 33-18z" fill="#f4c2b4"/>
+  <path d="M74 52l7 23M80 52l-3 23M166 52l-7 23M160 52l3 23" stroke="#e7a48a" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+  <path d="M120 92c-20 0-34-9-34-25 0-15 14-23 34-23s34 8 34 23c0 16-14 25-34 25z" fill="#fff4eb"/>
+  <path d="M102 106c-5 2-10 2-14-1-3-3-2-8 3-12 5 4 9 8 11 13z" fill="#4b3a38"/>
+  <path d="M138 106c5 2 10 2 14-1 3-3 2-8-3-12-5 4-9 8-11 13z" fill="#4b3a38"/>
+  <circle cx="104" cy="101" r="4" fill="#2f2a28"/>
+  <circle cx="136" cy="101" r="4" fill="#2f2a28"/>
+  <path d="M108 118c8 6 16 6 24 0" fill="none" stroke="#2f2a28" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="91" cy="115" r="8" fill="#ef9a9a" opacity=".65"/>
+  <circle cx="149" cy="115" r="8" fill="#ef9a9a" opacity=".65"/>
+  <path d="M120 185c-31 0-48-24-48-45 0-20 18-34 48-34s48 14 48 34c0 21-17 45-48 45z" fill="#e9b8c6"/>
+  <path d="M80 159c5-17 18-25 40-25s35 8 40 25c-8 11-20 16-40 16s-32-5-40-16z" fill="#fff0e8"/>
+  <path d="M120 150l23 35h-46z" fill="#d98b9f"/>
+  <circle cx="120" cy="139" r="4" fill="#f6d874"/>
+</svg>
