@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="小鹿的澳门入学记">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8cf7a"/>
+      <stop offset="1" stop-color="#e98868"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="58" fill="url(#bg)"/>
+  <circle cx="120" cy="120" r="74" fill="#fff8ee" opacity=".95"/>
+  <path d="M76 146c4-34 26-51 44-51s40 17 44 51c-12 15-24 22-44 22s-32-7-44-22z" fill="#f4a877"/>
+  <path d="M89 116c-16-19-4-43 16-52-8 24 1 42 15 52 12 11 24 12 33 0 14-10 23-28 15-52 20 9 32 33 16 52 19 5 27 16 18 29-16 22-43 36-82 36s-66-14-82-36c-9-13-1-24 18-29z" fill="#6b4b3e"/>
+  <path d="M120 82l25 34h-50z" fill="#f9d66d"/>
+  <circle cx="101" cy="125" r="5" fill="#2f2a28"/>
+  <circle cx="139" cy="125" r="5" fill="#2f2a28"/>
+  <path d="M108 142c7 7 17 7 24 0" fill="none" stroke="#2f2a28" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="88" cy="140" r="9" fill="#ef9a9a" opacity=".65"/>
+  <circle cx="152" cy="140" r="9" fill="#ef9a9a" opacity=".65"/>
+  <path d="M120 42v54M82 69l12 47M158 69l-12 47" fill="none" stroke="#fff8ee" stroke-width="7" stroke-linecap="round"/>
+</svg>
