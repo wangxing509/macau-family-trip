@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f8eee3">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="小鹿的澳门入学记">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="一家三口的澳门读研六日行程：天气、提醒、路线与餐饮。">
+  <title>小鹿的澳门入学记</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="brand">
+        <img class="brand-mark" src="assets/icon.svg" alt="">
+        <div>
+          <p class="brand-eyebrow">Macau · 六日入学记</p>
+          <h1>小鹿的澳门入学记</h1>
+          <p class="brand-sub">一家三口 · 2026.08.19—08.24</p>
+        </div>
+      </div>
+      <button class="icon-button" id="header-voice" title="播报今日天气与行程" aria-label="播报今日天气与行程">🔊</button>
+    </header>
+
+    <main class="app-main">
+      <section id="home-view" class="view active" aria-label="首页"></section>
+      <section id="itinerary-view" class="view" aria-label="六日行程"></section>
+      <section id="weather-view" class="view" aria-label="天气预报"></section>
+      <section id="family-view" class="view" aria-label="我们的家庭"></section>
+      <section id="reminders-view" class="view" aria-label="重要提醒"></section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="主导航">
+      <button class="nav-item active" data-view="home">
+        <span class="nav-icon">🏠</span>
+        <span>首页</span>
+      </button>
+      <button class="nav-item" data-view="itinerary">
+        <span class="nav-icon">🗺️</span>
+        <span>行程</span>
+      </button>
+      <button class="nav-item" data-view="weather">
+        <span class="nav-icon">🌤️</span>
+        <span>天气</span>
+      </button>
+      <button class="nav-item" data-view="family">
+        <span class="nav-icon">💛</span>
+        <span>家庭</span>
+      </button>
+      <button class="nav-item" data-view="reminders">
+        <span class="nav-icon">🔔</span>
+        <span>提醒</span>
+      </button>
+    </nav>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="install-banner" class="install-banner" hidden>
+    <div class="install-banner-icon">📲</div>
+    <div class="install-banner-copy">
+      <strong id="install-banner-title">添加到主屏幕</strong>
+      <span id="install-banner-text">像 App 一样独立打开，体验更好。</span>
+    </div>
+    <button id="install-banner-action" class="install-banner-action">安装</button>
+    <button id="install-banner-close" class="install-banner-close" aria-label="关闭安装提示">×</button>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
